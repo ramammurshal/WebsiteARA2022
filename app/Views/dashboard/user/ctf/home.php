@@ -33,25 +33,36 @@
     <li><i class="fa-brands fa-discord"></i> Link: <a href="https://discord.gg/58UyCPefqj" target="_blank">Join dan temukan Flag!</a></li>
   </ul>
 </div>
+
 <!-- If conditional buat yang juara 1/2/3 -->
+<?php if($juara == 1) :?>
 <div class="card-dashboard">
-  <h4>Pengumuman juara</h4>
-  <h1>SELAMAT, TIM KAMU BERHASIL JUARA 1</h1>
+  <h4>Pengumuman Pemenang</h4>
+  <ul>
+    <h2><li><i class="fas fa-trophy"></i> <span class="important">SELAMAT! <?= $nama?> BERHASIL MERAIH JUARA 1 DALAM LOMBA CTF ARA 2022</span></li></h2>
+  </ul>
 </div>
-
+<?php elseif($juara == 2):?>
 <div class="card-dashboard">
-  <h4>Pengumuman juara</h4>
-  <h1>SELAMAT, TIM KAMU BERHASIL JUARA 2</h1>
+<h4>Pengumuman Pemenang</h4>
+  <ul>
+    <h2><li><i class="fas fa-trophy"></i> <span class="important">SELAMAT! <?= $nama?> BERHASIL MERAIH JUARA 2 DALAM LOMBA CTF ARA 2022</span></li></h2>
+  </ul>
 </div>
-
+<?php elseif($juara == 3):?>
 <div class="card-dashboard">
-  <h4>Pengumuman juara</h4>
-  <h1>SELAMAT, TIM KAMU BERHASIL JUARA 3</h1>
+<h4>Pengumuman Pemenang</h4>
+  <ul>
+    <h2><li><i class="fas fa-trophy"></i> <span class="important">SELAMAT! <?= $nama?> BERHASIL MERAIH JUARA 3 DALAM LOMBA CTF ARA 2022</span></li></h2>
+  </ul>
 </div>
-
+<?php else:?>
 <div class="card-dashboard">
-  <h4>Pengumuman juara</h4>
-  <h1>MOHON MAAF ??</h1>
+  <h4>Pengumuman Pemenang</h4>
+  <ul>
+  <h2><li><i class="fas fa-trophy"></i> <span class="important">MOHON MAAF, <?= $nama?> DINYATAKAN BELUM DAPAT UNTUK MENJUARAI PERLOMBAAN CTF ARA 2022</span></li></h2>
+  </ul>
 </div>
+<?php endif;?>
 <?= $this->endSection(); ?>
 <!-- /end content -->
