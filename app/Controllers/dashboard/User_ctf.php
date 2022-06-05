@@ -23,6 +23,7 @@ class User_ctf extends BaseController
     $data['data'] = $this->model_custom->get_where('ctf', $this->session->get('keterangan'), '_nama_tim');
     //var_dump($data['data'][0]->ctf_nama_tim);
     $data["nama"] = $data['data'][0]->ctf_nama_tim;
+    $data["juara"] = $data['data'][0]->ctf_juara; //all pw test juara: juara123
     return view('dashboard/user/ctf/home', $data);
   }
 

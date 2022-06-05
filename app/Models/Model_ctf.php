@@ -31,6 +31,7 @@ class Model_ctf extends Model
         'ctf_intitusi',
         'ctf_contact',
         'ctf_status_final',
+        'ctf_juara',
         'ctf_bukti_bayar',
         'ctf_status'
     ];

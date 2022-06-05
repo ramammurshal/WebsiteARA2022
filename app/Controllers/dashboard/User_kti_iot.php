@@ -220,6 +220,7 @@ class User_kti_iot extends BaseController
       'status_konfirmasi_abstrak' => $tim['iot_status_konfirmasi_abstrak'],
       'status_penyisihan' => $tim['iot_status_penyisihan'],
       'status_final' => $tim['iot_status_final'],
+      'juara' => $tim['iot_juara'], //all pw test juara: juara123
       'pembayaran_final' => $tim['iot_pembayaran_final'],
       'status_bayar_final' => $tim['iot_status_konfirmasi_final']
     ];
