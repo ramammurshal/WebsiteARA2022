@@ -55,28 +55,29 @@
 <div class="card-dashboard">
   <h4>Pengumuman Pemenang</h4>
   <ul>
-    <h2><li><i class="fas fa-trophy"></i> <span class="important">SELAMAT! <?= $nama?> BERHASIL MERAIH JUARA 1 DALAM LOMBA KTI IOT ARA 2022</span></li></h2>
+    <h2><li><i class="fas fa-trophy"></i> <span class="important">Selamat! <?= $nama?> Berhasil Meraih Juara 1 Dalam Lomba KTI IOT ARA 2022</span></li></h2>
   </ul>
 </div>
 <?php elseif($juara == 2):?>
 <div class="card-dashboard">
 <h4>Pengumuman Pemenang</h4>
   <ul>
-    <h2><li><i class="fas fa-trophy"></i> <span class="important">SELAMAT! <?= $nama?> BERHASIL MERAIH JUARA 2 DALAM LOMBA KTI IOT ARA 2022</span></li></h2>
+    <h2><li><i class="fas fa-trophy"></i> <span class="important">Selamat! <?= $nama?> Berhasil Meraih Juara 1 Dalam Lomba KTI IOT ARA 2022</span></li></h2>
   </ul>
 </div>
 <?php elseif($juara == 3):?>
 <div class="card-dashboard">
 <h4>Pengumuman Pemenang</h4>
   <ul>
-    <h2><li><i class="fas fa-trophy"></i> <span class="important">SELAMAT! <?= $nama?> BERHASIL MERAIH JUARA 3 DALAM LOMBA KTI IOT ARA 2022</span></li></h2>
+    <h2><li><i class="fas fa-trophy"></i> <span class="important">Selamat! <?= $nama?> Berhasil Meraih Juara 1 Dalam Lomba KTI IOT ARA 2022</span></li></h2>
   </ul>
 </div>
 <?php else:?>
 <div class="card-dashboard">
   <h4>Pengumuman Pemenang</h4>
   <ul>
-  <h2><li><i class="fas fa-trophy"></i> <span class="important">MOHON MAAF, <?= $nama?> DINYATAKAN BELUM DAPAT UNTUK MENJUARAI PERLOMBAAN KTI IOT ARA 2022</span></li></h2>
+    <h2><li><i class="fas fa-trophy"></i> <span class="important">Mohon Maaf, <?= $nama?> Dinyatakan Belum Dapat Menjuarai Perlombaan KTI IOT ARA 2022</span></li></h2>
+    
   </ul>
 </div>
 <?php endif;?>
