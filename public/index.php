@@ -1,5 +1,9 @@
 <?php
 
+
+header('Location: https://www.its-ara.com/public/');
+
+
 // Path to the front controller (this file)
 define('FCPATH', __DIR__ . DIRECTORY_SEPARATOR);
 
